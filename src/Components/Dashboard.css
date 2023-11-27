@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #030303;
+}
+
+.dashboard-container {
+  margin-top: 5vh;
+  max-width: 40vw;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.dashboard-section p {
+  width: 40%;
+}
+
+.dashboard-section input {
+  flex: 1; /* Use flex property for equal width distribution */
+  margin-left: 10px;
+}
+
+.radio-buttons {
+  margin-left: 5vw;
+  display: flex;
+  gap: 5vw;
+}
+
+.inputs {
+  width: 100%;
+}
+
+.inputs input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.dashboard-section.graph-section {
+  width: 80%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-section.graph-section canvas {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 2vh; 
+}
+
+.save-button {
+  width: 80%;
+  box-sizing: border-box;
+  margin: 5vh auto auto 5.2vw ;
+  background-color:#6741D9; 
+  color: white;
+  border: none; 
+  padding: 10px 20px; 
+  transition: background-color 0.3s;
+}
+
+.save-button.disabled {
+  background-color: rgba(170, 155, 215, 0.7); 
+  cursor: not-allowed; 
+}
+
+h4{
+  margin-top: 10vh;
+  font-weight: 600;
+}

@@ -1,0 +1,73 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #030303;
+}
+
+.login-container {
+  max-width: 32vw;
+  margin: auto;
+  padding: 20px;
+  }
+
+
+.login-container h2 {
+  font-size: 32px;
+  text-align: center;
+  margin:25vh 0 4vh 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 3vh;
+  border: 1px solid #ffffff;
+  background-color: #030303;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 2vh;
+  max-width: 32vw;
+  background-color: #6741d9;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #6741d9;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 600px;
+  text-align: center;
+}
+
+button:hover,
+button:active {
+  border: 1px solid #f0c3f1;
+}
+
+.new-registration {
+  margin-top: 2.5vh;
+  text-align: center;
+}
+
+.new-registration a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.new-registration a:hover {
+  text-decoration: underline;
+}
+
+/* Greyed out styles */
+/* input:disabled {
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
+  color: #c2c2c2;
+} */
